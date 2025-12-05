@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>Professional Resume – Spencer Madsen</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+
+    <!-- Font Awesome -->
+    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+
+    <!-- Core Bootstrap CSS -->
+    <link href="css/styles.css" rel="stylesheet" />
+
+    <style>
+        /* Hero / About Background Image */
+        .masthead {
+            background-image: url('../assests/Ocean.jpg');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+            padding: 120px 20px 80px 20px;
+            position: relative;
+        }
+
+        .masthead::before {
+            content: "";
+            position: absolute;
+            top:0; left:0;
+            width: 100%; height: 100%;
+            background: rgba(0,0,0,0.3);
+            z-index: 0;
+        }
+
+        .masthead * {
+            position: relative;
+            z-index: 1;
+        }
+
+        /* Body light blue background */
+        body {
+            background-color: #e0f2ff;
+        }
+    </style>
+</head>
+<body id="page-top">
+
+<!-- Navigation (Bootstrap-style, fully working) -->
+<nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">Spencer Madsen</a>
+        <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            Menu <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item mx-0 mx-lg-1">
+                    <a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">About</a>
+                </li>
+                <li class="nav-item mx-0 mx-lg-1">
+                    <a class="nav-link py-3 px-0 px-lg-3 rounded" href="#resume">Résumé</a>
+                </li>
+                <li class="nav-item mx-0 mx-lg-1">
+                    <a class="nav-link py-3 px-0 px-lg-3 rounded" href="../html/scratch.html">Real Estate</a>
+                </li>
+                <li class="nav-item mx-0 mx-lg-1">
+                    <a class="nav-link py-3 px-0 px-lg-3 rounded" href="../html/ai.html">Quiz</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<!-- Masthead / Hero -->
+<header class="masthead text-center text-white">
+    <div class="container d-flex align-items-center flex-column">
+        <img class="masthead-avatar mb-4 rounded-circle" src="assets/img/myface.jpg" alt="Spencer Madsen" />
+        <h1 class="masthead-heading text-uppercase mb-0">Spencer Madsen</h1>
+        <div class="divider-custom divider-light">
+            <div class="divider-custom-line"></div>
+            <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+            <div class="divider-custom-line"></div>
+        </div>
+        <p class="masthead-subheading font-weight-light mb-0">Student • Builder • Communicator • Future Professional</p>
+    </div>
+</header>
+
+<!-- About Section -->
+<section class="page-section bg-primary text-white mb-0" id="about">
+    <div class="container">
+        <h2 class="page-section-heading text-center text-uppercase text-white">About Me</h2>
+        <div class="divider-custom divider-light">
+            <div class="divider-custom-line"></div>
+            <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+            <div class="divider-custom-line"></div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 ms-auto mb-3">
+                <img src="../assests/myface.jpg" class="img-fluid rounded" alt="About me image">
+            </div>
+            <div class="col-lg-6 me-auto">
+                <p class="lead">
+                    I am a sophomore at Brigham Young University (BYU) Provo, passionate about building, analyzing, and creating meaningful things. I have strong experience in leadership, communication, Excel, and technology gained as a missionary and student. I am fluent in Spanish and enjoy working with people, explaining ideas, and solving problems.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Resume Section -->
+<section class="page-section portfolio" id="resume">
+    <div class="container">
+        <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Résumé</h2>
+        <div class="divider-custom">
+            <div class="divider-custom-line"></div>
+            <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+            <div class="divider-custom-line"></div>
+        </div>
+
+        <!-- Education -->
+        <div class="mb-5">
+            <h4 class="fw-bold">Education</h4>
+            <ul>
+                <li>
+                    <strong>Brigham Young University (BYU) Provo</strong> — Sophomore
+                    <br>Expected Graduation: 2027
+                    <br>Major: Business Strategy
+                    <br>Completed one year of college coursework with a 4.0 GPA
+                    <br>Early admission following accelerated high school graduation
+                </li>
+                <li>
+                    <strong>West Albany High School</strong> — High School Diploma with Honors
+                    <br>Graduated June 2022 | GPA: 4.0 | Completed 5 AP courses
+                    <br>Graduated early after junior year with high academic distinction
+                </li>
+            </ul>
+        </div>
+
+        <!-- Experience -->
+        <div class="mb-5">
+            <h4 class="fw-bold">Experience</h4>
+
+            <div class="mb-3">
+                <strong>Volunteer Educator & Cultural Program Leader</strong> — World in Us Nonprofit | Summers 2021 & 2022
+                <ul>
+                    <li>Designed and led educational workshops at the Boys & Girls Club, teaching youth from diverse backgrounds about world cultures</li>
+                    <li>Created interactive lessons promoting cultural appreciation, inclusion, and global understanding</li>
+                    <li>Facilitated group discussions and activities, helping students explore values of respect, diversity, and shared humanity</li>
+                </ul>
+            </div>
+
+            <div class="mb-3">
+                <strong>Eagle Scout & Troop Leader</strong> — Scouts BSA | 2020 – 2022
+                <ul>
+                    <li>Earned the rank of Eagle Scout through completion of a community-focused service project</li>
+                    <li>Led and mentored younger scouts, organized events, and demonstrated responsibility, teamwork, and leadership</li>
+                    <li>Honed outdoor survival skills, problem-solving, and character development through hands-on experience</li>
+                </ul>
+            </div>
+
+            <div class="mb-3">
+                <strong>Volunteer Medical Assistant</strong> — Humanitarian Eye Clinic | Nicaragua | July 2025
+                <ul>
+                    <li>Assisted in pre-operative procedures and patient care for individuals receiving eye surgeries</li>
+                    <li>Supported clinic operations and provided post-op support during a week-long mission</li>
+                </ul>
+            </div>
+
+            <div class="mb-3">
+                <strong>Missionary & Community Organizer</strong> — The Church of Jesus Christ of Latter-day Saints | Nicaragua | 2023 – 2025
+                <ul>
+                    <li>Led missionary teams and organized community outreach initiatives</li>
+                    <li>Delivered public lessons and personalized mentorship in Spanish</li>
+                    <li>Developed strong leadership, cross-cultural, and interpersonal communication skills</li>
+                </ul>
+            </div>
+
+            <div class="mb-3">
+                <strong>Amazon Warehouse Associate</strong> — Amazon | Summer 2023
+                <ul>
+                    <li>Unloaded delivery trucks and sorted packages to ensure timely order fulfillment</li>
+                    <li>Maintained a high-paced workflow with accuracy and attention to detail</li>
+                </ul>
+            </div>
+
+            <div class="mb-3">
+                <strong>Lifeguard</strong> — Albany Community Pool & Tennis Club | Summers 2021 – 2023
+                <ul>
+                    <li>Ensured swimmer safety, enforced regulations, and responded to emergencies</li>
+                    <li>Maintained cleanliness and operational standards of pool facilities</li>
+                </ul>
+            </div>
+
+            <div class="mb-3">
+                <strong>ASE Research Intern – Computer Science</strong> — Oregon State University | Summer 2020
+                <ul>
+                    <li>Co-authored a research paper for the Gen-MAG project in genomics and machine learning</li>
+                    <li>Assisted graduate students with dataset preparation and research workflow</li>
+                    <li>Gained hands-on experience in academic collaboration and technical research</li>
+                </ul>
+            </div>
+
+            <div class="mb-3">
+                <strong>Student Leadership</strong> — West Albany High School & Brigham Young University | 2021 – 2023
+                <ul>
+                    <li>Served as Junior Class President and created student engagement campaigns</li>
+                    <li>Led development of a campus activity website at BYU to increase event visibility</li>
+                    <li>Founded a high school investment club to promote financial literacy among students</li>
+                </ul>
+            </div>
+
+        </div>
+
+        <!-- Skills -->
+        <div class="mb-5">
+            <h4 class="fw-bold">Skills</h4>
+            <ul class="two-column">
+                <li>Fluent in English and Spanish</li>
+                <li>Microsoft Excel</li>
+                <li>Canva</li>
+                <li>Basic Python</li>
+                <li>Team Leadership</li>
+                <li>Public Speaking</li>
+                <li>Cross-cultural Communication</li>
+                <li>Event Planning</li>
+                <li>Club Founder</li>
+                <li>Financial Literacy Advocacy</li>
+                <li>Student Engagement Strategy</li>
+            </ul>
+        </div>
+
+        <!-- Awards -->
+        <div class="mb-5">
+            <h4 class="fw-bold">Awards & Honors</h4>
+            <ul>
+                <li>Mission Leadership Roles</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer text-center py-4">
+    <div class="container">
+        <p class="text-muted mb-0">© 2025 Spencer Madsen — All Rights Reserved</p>
+    </div>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+<script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+
+</body>
+</html>
+
+
+
+
+
